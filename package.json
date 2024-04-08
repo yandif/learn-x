@@ -1,0 +1,24 @@
+{
+  "name": "learn-x",
+  "version": "0.0.0",
+  "description": "learn-x is a personal demonstration repository, meticulously crafted to document the journey of learning and mastering a diverse array of libraries and frameworks. ",
+  "scripts": {
+    "commit": "git add . && git-cz && git push"
+  },
+  "keywords": [
+    "learning",
+    "libraries",
+    "frameworks"
+  ],
+  "author": "Yandif <me.yandif@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
